@@ -1,0 +1,382 @@
+Output of 'ps -ef':
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 15:14 ?        00:00:13 /lib/systemd/systemd --system --deserialize 18
+root           2       0  0 15:14 ?        00:00:00 [kthreadd]
+root           3       2  0 15:14 ?        00:00:00 [rcu_gp]
+root           4       2  0 15:14 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 15:14 ?        00:00:00 [slub_flushwq]
+root           6       2  0 15:14 ?        00:00:00 [netns]
+root           8       2  0 15:14 ?        00:00:00 [kworker/0:0H-kblockd]
+root          10       2  0 15:14 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 15:14 ?        00:00:00 [rcu_tasks_rude_]
+root          12       2  0 15:14 ?        00:00:00 [rcu_tasks_trace]
+root          13       2  0 15:14 ?        00:00:00 [ksoftirqd/0]
+root          14       2  0 15:14 ?        00:00:19 [rcu_sched]
+root          15       2  0 15:14 ?        00:00:00 [migration/0]
+root          16       2  0 15:14 ?        00:00:00 [idle_inject/0]
+root          18       2  0 15:14 ?        00:00:00 [cpuhp/0]
+root          19       2  0 15:14 ?        00:00:00 [cpuhp/1]
+root          20       2  0 15:14 ?        00:00:00 [idle_inject/1]
+root          21       2  0 15:14 ?        00:00:01 [migration/1]
+root          22       2  0 15:14 ?        00:00:00 [ksoftirqd/1]
+root          24       2  0 15:14 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          25       2  0 15:14 ?        00:00:00 [cpuhp/2]
+root          26       2  0 15:14 ?        00:00:00 [idle_inject/2]
+root          27       2  0 15:14 ?        00:00:01 [migration/2]
+root          28       2  0 15:14 ?        00:00:00 [ksoftirqd/2]
+root          30       2  0 15:14 ?        00:00:00 [kworker/2:0H-kblockd]
+root          31       2  0 15:14 ?        00:00:00 [cpuhp/3]
+root          32       2  0 15:14 ?        00:00:00 [idle_inject/3]
+root          33       2  0 15:14 ?        00:00:01 [migration/3]
+root          34       2  0 15:14 ?        00:00:05 [ksoftirqd/3]
+root          36       2  0 15:14 ?        00:00:00 [kworker/3:0H-kblockd]
+root          37       2  0 15:14 ?        00:00:00 [cpuhp/4]
+root          38       2  0 15:14 ?        00:00:00 [idle_inject/4]
+root          39       2  0 15:14 ?        00:00:01 [migration/4]
+root          40       2  0 15:14 ?        00:00:00 [ksoftirqd/4]
+root          42       2  0 15:14 ?        00:00:00 [kworker/4:0H-events_highpri]
+root          43       2  0 15:14 ?        00:00:00 [kdevtmpfs]
+root          44       2  0 15:14 ?        00:00:00 [inet_frag_wq]
+root          45       2  0 15:14 ?        00:00:00 [kauditd]
+root          46       2  0 15:14 ?        00:00:00 [khungtaskd]
+root          47       2  0 15:14 ?        00:00:00 [oom_reaper]
+root          48       2  0 15:14 ?        00:00:00 [writeback]
+root          49       2  0 15:14 ?        00:00:09 [kcompactd0]
+root          50       2  0 15:14 ?        00:00:00 [ksmd]
+root          51       2  0 15:14 ?        00:00:00 [khugepaged]
+root          99       2  0 15:14 ?        00:00:00 [kintegrityd]
+root         100       2  0 15:14 ?        00:00:00 [kblockd]
+root         101       2  0 15:14 ?        00:00:00 [blkcg_punt_bio]
+root         102       2  0 15:14 ?        00:00:00 [tpm_dev_wq]
+root         103       2  0 15:14 ?        00:00:00 [ata_sff]
+root         104       2  0 15:14 ?        00:00:00 [md]
+root         105       2  0 15:14 ?        00:00:00 [edac-poller]
+root         106       2  0 15:14 ?        00:00:00 [devfreq_wq]
+root         107       2  0 15:14 ?        00:00:00 [watchdogd]
+root         109       2  0 15:14 ?        00:00:04 [kworker/4:1H-kblockd]
+root         111       2  0 15:14 ?        00:00:02 [kswapd0]
+root         112       2  0 15:14 ?        00:00:00 [ecryptfs-kthrea]
+root         115       2  0 15:14 ?        00:00:00 [kthrotld]
+root         116       2  0 15:14 ?        00:00:00 [acpi_thermal_pm]
+root         118       2  0 15:14 ?        00:00:00 [scsi_eh_0]
+root         119       2  0 15:14 ?        00:00:00 [scsi_tmf_0]
+root         120       2  0 15:14 ?        00:00:00 [scsi_eh_1]
+root         121       2  0 15:14 ?        00:00:00 [scsi_tmf_1]
+root         123       2  0 15:14 ?        00:00:00 [vfio-irqfd-clea]
+root         124       2  0 15:14 ?        00:00:00 [mld]
+root         125       2  0 15:14 ?        00:00:00 [ipv6_addrconf]
+root         138       2  0 15:14 ?        00:00:00 [kstrp]
+root         141       2  0 15:14 ?        00:00:00 [zswap-shrink]
+root         142       2  0 15:14 ?        00:00:00 [kworker/u11:0]
+root         147       2  0 15:14 ?        00:00:00 [charger_manager]
+root         171       2  0 15:14 ?        00:00:06 [kworker/1:1H-kblockd]
+root         200       2  0 15:14 ?        00:00:00 [scsi_eh_2]
+root         201       2  0 15:14 ?        00:00:00 [scsi_tmf_2]
+root         204       2  0 15:14 ?        00:00:06 [kworker/0:1H-kblockd]
+root         207       2  0 15:14 ?        00:00:05 [kworker/3:1H-kblockd]
+root         226       2  0 15:14 ?        00:00:09 [jbd2/sda5-8]
+root         227       2  0 15:14 ?        00:00:00 [ext4-rsv-conver]
+root         262       2  0 15:14 ?        00:00:05 [kworker/2:1H-kblockd]
+root         307       2  0 15:14 ?        00:00:00 [ttm_swap]
+root         308       2  0 15:14 ?        00:00:05 [irq/18-vmwgfx]
+root         309       2  0 15:14 ?        00:00:00 [card0-crtc0]
+root         310       2  0 15:14 ?        00:00:00 [card0-crtc1]
+root         311       2  0 15:14 ?        00:00:00 [card0-crtc2]
+root         312       2  0 15:14 ?        00:00:00 [card0-crtc3]
+root         313       2  0 15:14 ?        00:00:00 [card0-crtc4]
+root         314       2  0 15:14 ?        00:00:00 [card0-crtc5]
+root         315       2  0 15:14 ?        00:00:00 [card0-crtc6]
+root         316       2  0 15:14 ?        00:00:00 [card0-crtc7]
+root         359       2  0 15:14 ?        00:00:00 [iprt-VBoxWQueue]
+root         363       2  0 15:14 ?        00:00:00 [cryptd]
+root         631       1  0 15:14 ?        00:00:01 /usr/sbin/acpid
+root         635       1  0 15:14 ?        00:00:00 /usr/sbin/cron -f
+message+     638       1  0 15:14 ?        00:00:09 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         645       1  0 15:14 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         648       1  0 15:14 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root         651       1  0 15:14 ?        00:00:06 /usr/lib/policykit-1/polkitd --no-debug
+root         667       1  0 15:14 ?        00:00:00 /usr/libexec/switcheroo-control
+root         671       1  0 15:14 ?        00:00:00 /usr/lib/udisks2/udisksd
+colord       724       1  0 15:14 ?        00:00:00 /usr/libexec/colord
+root         736       1  0 15:14 ?        00:00:00 /usr/sbin/ModemManager
+root         745       1  0 15:14 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         785       1  0 15:14 ?        00:00:29 /usr/bin/VBoxDRMClient
+root         995       1  0 15:14 ?        00:00:00 /usr/sbin/gdm3
+rtkit       1032       1  0 15:14 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1150       1  0 15:14 ?        00:00:00 /usr/lib/upower/upowerd
+whoopsie    1728       1  0 15:15 ?        00:00:00 /usr/bin/whoopsie -f
+kernoops    1730       1  0 15:15 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops    1732       1  0 15:15 ?        00:00:00 /usr/sbin/kerneloops
+root       24295       1  0 15:42 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+uuidd      24709       1  0 15:42 ?        00:00:00 /usr/sbin/uuidd --socket-activation
+root       24801       1  0 15:42 ?        00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       30373       1  0 15:42 ?        00:00:00 /usr/sbin/cupsd -l
+lp         30375   30373  0 15:42 ?        00:00:00 /usr/lib/cups/notifier/dbus dbus://
+avahi      30481       1  0 15:42 ?        00:00:00 avahi-daemon: running [thisisaro.local]
+avahi      30482   30481  0 15:42 ?        00:00:00 avahi-daemon: chroot helper
+root       30712       1  0 15:43 ?        00:00:00 /usr/sbin/cups-browsed
+root       31125       1  0 15:43 ?        00:00:02 /lib/systemd/systemd-journald
+root       31427       1  0 15:43 ?        00:00:01 /usr/lib/snapd/snapd
+root       31787       1  0 15:43 ?        00:00:02 /usr/sbin/NetworkManager --no-daemon
+syslog     44058       1  0 15:44 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root       51843       1  0 17:02 ?        00:00:00 /lib/systemd/systemd-logind
+root       51844     995  0 17:02 ?        00:00:00 gdm-session-worker [pam/gdm-launch-environment]
+systemd+   51854       1  0 17:02 ?        00:00:01 /lib/systemd/systemd-resolved
+gdm        51898       1  0 17:02 ?        00:00:00 /lib/systemd/systemd --user
+gdm        51900   51898  0 17:02 ?        00:00:00 (sd-pam)
+gdm        51914   51898  0 17:02 ?        00:00:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+gdm        51923   51844  0 17:02 tty3     00:00:00 /usr/lib/gdm3/gdm-x-session dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm        51926   51923  0 17:02 tty3     00:00:06 /usr/lib/xorg/Xorg vt3 -displayfd 3 -auth /run/user/126/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+gdm        51943   51898  0 17:02 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+systemd+   51976       1  0 17:02 ?        00:00:00 /lib/systemd/systemd-timesyncd
+gdm        52058   51923  0 17:02 tty3     00:00:00 dbus-run-session -- gnome-session --autostart /usr/share/gdm/greeter/autostart
+gdm        52059   52058  0 17:02 tty3     00:00:00 dbus-daemon --nofork --print-address 4 --session
+gdm        52062   52058  0 17:02 tty3     00:00:00 /usr/libexec/gnome-session-binary --systemd --autostart /usr/share/gdm/greeter/autostart
+gdm        52088       1  0 17:02 tty3     00:00:00 /usr/libexec/at-spi-bus-launcher
+gdm        52093   52088  0 17:02 tty3     00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+gdm        52137   52062  0 17:02 tty3     00:00:17 /usr/bin/gnome-shell
+gdm        52180   52137  0 17:02 tty3     00:00:00 ibus-daemon --panel disable --xim
+gdm        52183   52180  0 17:02 tty3     00:00:00 /usr/libexec/ibus-memconf
+gdm        52185       1  0 17:02 tty3     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+gdm        52191       1  0 17:02 tty3     00:00:00 /usr/libexec/ibus-portal
+gdm        52198       1  0 17:02 tty3     00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+gdm        52202       1  0 17:02 tty3     00:00:00 /usr/libexec/xdg-permission-store
+gdm        52212       1  0 17:02 tty3     00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+gdm        52225   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-sharing
+gdm        52226   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-wacom
+gdm        52229   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-color
+gdm        52231   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-keyboard
+gdm        52234   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-print-notifications
+gdm        52235   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-rfkill
+gdm        52236   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-smartcard
+gdm        52239   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-datetime
+gdm        52244   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-media-keys
+gdm        52246   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-screensaver-proxy
+gdm        52248   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-sound
+gdm        52249   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-a11y-settings
+gdm        52251   52180  0 17:02 tty3     00:00:00 /usr/libexec/ibus-engine-simple
+gdm        52255   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-housekeeping
+gdm        52258   52062  0 17:02 tty3     00:00:00 /usr/libexec/gsd-power
+gdm        52285       1  0 17:02 tty3     00:00:00 /usr/libexec/gsd-printer
+root       52371       1  0 17:39 ?        00:00:00 /lib/systemd/systemd-udevd
+root       52377     995  0 17:39 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+aro        52388       1  0 17:39 ?        00:00:00 /lib/systemd/systemd --user
+aro        52389   52388  0 17:39 ?        00:00:00 (sd-pam)
+aro        52395   52388  0 17:39 ?        00:00:03 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+aro        52398       1  0 17:39 ?        00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+aro        52403   52388  0 17:39 ?        00:00:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+aro        52405   52377  0 17:39 tty2     00:00:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+aro        52407   52405  4 17:39 tty2     00:07:16 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+aro        52415   52405  0 17:39 tty2     00:00:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+aro        52488       1  0 17:39 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+aro        52490   52488  0 17:39 ?        00:00:00 /usr/bin/VBoxClient --clipboard
+aro        52496       1  0 17:39 ?        00:00:00 /usr/bin/VBoxClient --seamless
+aro        52498   52496  0 17:39 ?        00:00:12 /usr/bin/VBoxClient --seamless
+aro        52504       1  0 17:39 ?        00:00:00 /usr/bin/VBoxClient --draganddrop
+aro        52506   52504  0 17:39 ?        00:01:16 /usr/bin/VBoxClient --draganddrop
+aro        52520       1  0 17:39 ?        00:00:00 /usr/bin/VBoxClient --vmsvga-session
+aro        52522   52520  0 17:39 ?        00:00:07 /usr/bin/VBoxClient --vmsvga-session
+aro        52528   52415  0 17:39 ?        00:00:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+aro        52545   52388  0 17:39 ?        00:00:00 /usr/libexec/at-spi-bus-launcher
+aro        52550   52545  0 17:39 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+aro        52579   52388  0 17:39 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+aro        52586   52388  0 17:39 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+aro        52600   52388  4 17:39 ?        00:08:16 /usr/bin/gnome-shell
+aro        52629   52388  0 17:40 ?        00:00:00 /usr/libexec/gvfsd
+aro        52634   52388  0 17:40 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+aro        52647   52600  0 17:40 ?        00:00:00 ibus-daemon --panel disable --xim
+aro        52651   52647  0 17:40 ?        00:00:00 /usr/libexec/ibus-memconf
+aro        52652   52647  0 17:40 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+aro        52655   52388  0 17:40 ?        00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+aro        52658   52388  0 17:40 ?        00:00:00 /usr/libexec/ibus-portal
+aro        52668   52388  0 17:40 ?        00:00:04 /usr/libexec/at-spi2-registryd --use-gnome-session
+aro        52672   52388  0 17:40 ?        00:00:00 /usr/libexec/xdg-permission-store
+aro        52674   52388  0 17:40 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+aro        52683   52388  0 17:40 ?        00:00:00 /usr/libexec/evolution-source-registry
+aro        52691   52388  0 17:40 ?        00:00:00 /usr/libexec/goa-daemon
+aro        52701   52388  0 17:40 ?        00:00:00 /usr/libexec/goa-identity-service
+aro        52702   52388  0 17:40 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+geoclue    52708       1  0 17:40 ?        00:00:00 /usr/libexec/geoclue
+aro        52716   52388  0 17:40 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+aro        52724   52388  0 17:40 ?        00:00:00 /usr/libexec/dconf-service
+aro        52725   52388  0 17:40 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+aro        52735   52388  0 17:40 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+aro        52743   52388  0 17:40 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+aro        52749   52388  0 17:40 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+aro        52754   52388  0 17:40 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+aro        52768   52388  0 17:40 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+aro        52777   52629  0 17:40 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.26 /org/gtk/gvfs/exec_spaw/0
+aro        52790   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+aro        52791   52388  0 17:40 ?        00:00:04 /usr/libexec/gsd-color
+aro        52794   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-datetime
+aro        52795   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-housekeeping
+aro        52796   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-keyboard
+aro        52797   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-media-keys
+aro        52798   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-power
+aro        52799   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-print-notifications
+aro        52800   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-rfkill
+aro        52801   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+aro        52802   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-sharing
+aro        52803   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-smartcard
+aro        52808   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-sound
+aro        52811   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-usb-protection
+aro        52816   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-wacom
+aro        52820   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-wwan
+aro        52827   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-xsettings
+aro        52873   52586  0 17:40 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+aro        52880   52586  0 17:40 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+aro        52887   52647  0 17:40 ?        00:00:00 /usr/libexec/ibus-engine-simple
+aro        52945   52388  0 17:40 ?        00:00:00 /usr/libexec/gsd-printer
+aro        52971   52388  0 17:40 ?        00:00:00 /usr/libexec/tracker-miner-fs
+aro        53028   52388  0 17:40 ?        00:00:00 /usr/libexec/gvfsd-metadata
+aro        53094   52388  0 17:40 ?        00:00:01 /usr/libexec/xdg-desktop-portal
+aro        53106   52388  0 17:40 ?        00:00:00 /usr/libexec/xdg-document-portal
+aro        53130   52388  0 17:40 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+gdm        53486       1  0 17:40 tty3     00:00:00 /usr/libexec/dconf-service
+aro        53566   52586  0 17:41 ?        00:00:00 update-notifier
+root       54403       2  0 18:10 ?        00:00:06 [kworker/2:0-events]
+aro        54410   52388  3 18:10 ?        00:04:37 /opt/google/chrome/chrome
+aro        54416   54410  0 18:10 ?        00:00:00 cat
+aro        54417   54410  0 18:10 ?        00:00:00 cat
+aro        54419   52388  0 18:10 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/aro/.config/google-chrome/Crash Reports --metrics-dir=/home/aro/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=132.0.6834.83 --initial-client-fd=5 --shared-client-connection
+aro        54421   52388  0 18:10 ?        00:00:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/aro/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=132.0.6834.83 --initial-client-fd=4 --shared-client-connection
+aro        54427   54410  0 18:10 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable
+aro        54428   54410  0 18:10 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable
+aro        54430   54428  0 18:10 ?        00:00:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable
+aro        54456   54427  0 18:10 ?        00:00:58 /opt/google/chrome/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54458   54410  0 18:10 ?        00:00:32 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54475   54430  0 18:10 ?        00:00:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54537   54430  0 18:10 ?        00:00:18 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=10546846043 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54606   54430  1 18:10 ?        00:01:50 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=10547128170 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54612   54430  0 18:10 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=10547138592 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54703   54410  0 18:10 ?        00:00:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=none --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        55043   54427  0 18:13 ?        00:00:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=on_device_model.mojom.OnDeviceModelService --lang=en-GB --service-sandbox-type=on_device_model_execution --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        55044   55043  0 18:13 ?        00:00:00 /opt/google/chrome/chrome --type=broker
+root       66722       2  0 19:00 ?        00:00:02 [kworker/u10:0-events_unbound]
+root       66918       2  0 19:05 ?        00:00:04 [kworker/4:2-events]
+root       66979       1  0 19:06 ?        00:00:01 /usr/libexec/fwupd/fwupd
+aro        67409   52388  0 19:16 ?        00:00:12 /usr/libexec/gnome-terminal-server
+aro        67417   67409  0 19:16 pts/2    00:00:00 bash
+root       67438       2  0 19:16 ?        00:00:01 [kworker/3:0-events]
+root       69015       2  0 19:21 ?        00:00:01 [kworker/1:1-events]
+root       69317       2  0 19:26 ?        00:00:00 [kworker/2:1-cgroup_destroy]
+aro        70146   54430  0 19:42 ?        00:00:05 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=154 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=16082158407 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+root       70173       2  0 19:43 ?        00:00:01 [kworker/0:2-events]
+root       70275       2  0 19:56 ?        00:00:00 [kworker/3:2-cgroup_destroy]
+root       70381       2  0 20:06 ?        00:00:00 [kworker/4:0-cgroup_destroy]
+root       70384       2  0 20:09 ?        00:00:00 [kworker/u10:2-events_freezable_power_]
+aro        70495   54430  0 20:21 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=169 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18431621250 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+root       70517       2  0 20:22 ?        00:00:00 [kworker/0:1-events]
+root       70518       2  0 20:22 ?        00:00:00 [kworker/1:0-cgroup_destroy]
+aro        70662   54430  2 20:23 ?        00:00:10 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=179 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18512424488 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70680   54430  0 20:23 ?        00:00:02 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=181 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18526356976 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70692   54430  0 20:23 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=182 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18529135450 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70701   54430  0 20:23 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=183 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18529267646 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+root       70881       2  0 20:28 ?        00:00:00 [kworker/u10:1-events_power_efficient]
+aro        70961   54430  1 20:31 ?        00:00:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=192 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18981305874 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+root       70973       2  0 20:31 ?        00:00:00 [kworker/2:2-cgroup_destroy]
+aro        70974   67417  0 20:31 pts/2    00:00:00 bash q4.sh
+aro        70975   70974  0 20:31 pts/2    00:00:00 ps -ef
+
+Output of 'ps -ux':
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+aro        52388  0.0  0.1  19756 10556 ?        Ss   17:39   0:00 /lib/systemd/systemd --user
+aro        52389  0.0  0.0 170816  4056 ?        S    17:39   0:00 (sd-pam)
+aro        52395  0.0  0.3 2007616 20976 ?       Ssl  17:39   0:03 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+aro        52398  0.0  0.1 313936  7752 ?        Sl   17:39   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+aro        52403  0.0  0.1  12104  9360 ?        Ss   17:39   0:02 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+aro        52405  0.0  0.1 164028  6568 tty2     Ssl+ 17:39   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+aro        52407  4.2  2.5 357488 155620 tty2    Sl+  17:39   7:16 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+aro        52415  0.0  0.2 188096 13844 tty2     Sl+  17:39   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+aro        52488  0.0  0.0  19360   348 ?        S    17:39   0:00 /usr/bin/VBoxClient --clipboard
+aro        52490  0.0  0.0 220216  4244 ?        Sl   17:39   0:00 /usr/bin/VBoxClient --clipboard
+aro        52496  0.0  0.0  19360   344 ?        S    17:39   0:00 /usr/bin/VBoxClient --seamless
+aro        52498  0.1  0.0 217516  2456 ?        Sl   17:39   0:12 /usr/bin/VBoxClient --seamless
+aro        52504  0.0  0.0  19360   348 ?        S    17:39   0:00 /usr/bin/VBoxClient --draganddrop
+aro        52506  0.7  0.0 283568  2332 ?        Sl   17:39   1:16 /usr/bin/VBoxClient --draganddrop
+aro        52520  0.0  0.0  19360   348 ?        S    17:39   0:00 /usr/bin/VBoxClient --vmsvga-session
+aro        52522  0.0  0.0 219740  2708 ?        Sl   17:39   0:07 /usr/bin/VBoxClient --vmsvga-session
+aro        52528  0.0  0.0   6044   452 ?        Ss   17:39   0:00 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+aro        52545  0.0  0.1 305384  7044 ?        Ssl  17:39   0:00 /usr/libexec/at-spi-bus-launcher
+aro        52550  0.0  0.0   7248  4412 ?        S    17:39   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+aro        52579  0.0  0.0  90072  4368 ?        Ssl  17:39   0:00 /usr/libexec/gnome-session-ctl --monitor
+aro        52586  0.0  0.2 557804 15376 ?        Ssl  17:39   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+aro        52600  4.8  7.5 5116812 458196 ?      Ssl  17:39   8:16 /usr/bin/gnome-shell
+aro        52629  0.0  0.1 239844  7624 ?        Ssl  17:40   0:00 /usr/libexec/gvfsd
+aro        52634  0.0  0.1 378356  6536 ?        Sl   17:40   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+aro        52647  0.0  0.1 310960  8404 ?        Sl   17:40   0:00 ibus-daemon --panel disable --xim
+aro        52651  0.0  0.1 162716  7276 ?        Sl   17:40   0:00 /usr/libexec/ibus-memconf
+aro        52652  0.0  0.5 275624 31524 ?        Sl   17:40   0:01 /usr/libexec/ibus-extension-gtk3
+aro        52655  0.0  0.4 197872 28348 ?        Sl   17:40   0:00 /usr/libexec/ibus-x11 --kill-daemon
+aro        52658  0.0  0.1 236512  7632 ?        Sl   17:40   0:00 /usr/libexec/ibus-portal
+aro        52668  0.0  0.1 162920  6612 ?        Sl   17:40   0:04 /usr/libexec/at-spi2-registryd --use-gnome-session
+aro        52672  0.0  0.0 235608  4828 ?        Ssl  17:40   0:00 /usr/libexec/xdg-permission-store
+aro        52674  0.0  0.3 581040 19660 ?        Sl   17:40   0:00 /usr/libexec/gnome-shell-calendar-server
+aro        52683  0.0  0.4 1070240 25492 ?       Ssl  17:40   0:00 /usr/libexec/evolution-source-registry
+aro        52691  0.0  0.5 553260 34524 ?        Sl   17:40   0:00 /usr/libexec/goa-daemon
+aro        52701  0.0  0.1 314768  8916 ?        Sl   17:40   0:00 /usr/libexec/goa-identity-service
+aro        52702  0.0  0.5 1379428 30832 ?       Ssl  17:40   0:00 /usr/libexec/evolution-calendar-factory
+aro        52716  0.0  0.1 387612  9736 ?        Ssl  17:40   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+aro        52724  0.0  0.0 156344  5844 ?        Sl   17:40   0:00 /usr/libexec/dconf-service
+aro        52725  0.0  0.4 673264 29296 ?        Ssl  17:40   0:00 /usr/libexec/evolution-addressbook-factory
+aro        52735  0.0  0.1 316736  8940 ?        Ssl  17:40   0:01 /usr/libexec/gvfs-afc-volume-monitor
+aro        52743  0.0  0.1 237988  6820 ?        Ssl  17:40   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+aro        52749  0.0  0.1 235712  6348 ?        Ssl  17:40   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+aro        52754  0.0  0.1 235888  6288 ?        Ssl  17:40   0:00 /usr/libexec/gvfs-goa-volume-monitor
+aro        52768  0.0  0.4 2727556 27396 ?       Sl   17:40   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+aro        52777  0.0  0.1 313956  7720 ?        Sl   17:40   0:00 /usr/libexec/gvfsd-trash --spawner :1.26 /org/gtk/gvfs/exec_spaw/0
+aro        52790  0.0  0.1 309624  6500 ?        Ssl  17:40   0:00 /usr/libexec/gsd-a11y-settings
+aro        52791  0.0  0.4 494148 29568 ?        Ssl  17:40   0:04 /usr/libexec/gsd-color
+aro        52794  0.0  0.2 373576 16184 ?        Ssl  17:40   0:00 /usr/libexec/gsd-datetime
+aro        52795  0.0  0.1 311688  7576 ?        Ssl  17:40   0:00 /usr/libexec/gsd-housekeeping
+aro        52796  0.0  0.4 345848 28876 ?        Ssl  17:40   0:00 /usr/libexec/gsd-keyboard
+aro        52797  0.0  0.5 1163376 32804 ?       Ssl  17:40   0:00 /usr/libexec/gsd-media-keys
+aro        52798  0.0  0.4 420008 29280 ?        Ssl  17:40   0:00 /usr/libexec/gsd-power
+aro        52799  0.0  0.1 248228 11468 ?        Ssl  17:40   0:00 /usr/libexec/gsd-print-notifications
+aro        52800  0.0  0.1 457112  6108 ?        Ssl  17:40   0:00 /usr/libexec/gsd-rfkill
+aro        52801  0.0  0.0 235520  6016 ?        Ssl  17:40   0:00 /usr/libexec/gsd-screensaver-proxy
+aro        52802  0.0  0.1 464620 10180 ?        Ssl  17:40   0:00 /usr/libexec/gsd-sharing
+aro        52803  0.0  0.1 315412  8412 ?        Ssl  17:40   0:00 /usr/libexec/gsd-smartcard
+aro        52808  0.0  0.1 319320  9096 ?        Ssl  17:40   0:00 /usr/libexec/gsd-sound
+aro        52811  0.0  0.1 384924  7332 ?        Ssl  17:40   0:00 /usr/libexec/gsd-usb-protection
+aro        52816  0.0  0.4 345360 28232 ?        Ssl  17:40   0:00 /usr/libexec/gsd-wacom
+aro        52820  0.0  0.1 314056  7824 ?        Ssl  17:40   0:00 /usr/libexec/gsd-wwan
+aro        52827  0.0  0.4 346496 29920 ?        Ssl  17:40   0:00 /usr/libexec/gsd-xsettings
+aro        52873  0.0  0.9 645792 58760 ?        Sl   17:40   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+aro        52880  0.0  0.0 231812  5932 ?        Sl   17:40   0:00 /usr/libexec/gsd-disk-utility-notify
+aro        52887  0.0  0.1 162708  7176 ?        Sl   17:40   0:00 /usr/libexec/ibus-engine-simple
+aro        52945  0.0  0.2 342192 15288 ?        Sl   17:40   0:00 /usr/libexec/gsd-printer
+aro        52971  0.0  0.4 789872 24316 ?        SNsl 17:40   0:00 /usr/libexec/tracker-miner-fs
+aro        53028  0.0  0.1 162296  6528 ?        Ssl  17:40   0:00 /usr/libexec/gvfsd-metadata
+aro        53094  0.0  0.1 741208 10692 ?        Ssl  17:40   0:01 /usr/libexec/xdg-desktop-portal
+aro        53106  0.0  0.1 752600  6636 ?        Ssl  17:40   0:00 /usr/libexec/xdg-document-portal
+aro        53130  0.0  0.4 493656 28668 ?        Ssl  17:40   0:00 /usr/libexec/xdg-desktop-portal-gtk
+aro        53566  0.0  0.5 421200 34612 ?        Sl   17:41   0:00 update-notifier
+aro        54410  3.2  5.4 34283440 327760 ?     SLl  18:10   4:37 /opt/google/chrome/chrome
+aro        54416  0.0  0.0   8228   580 ?        S    18:10   0:00 cat
+aro        54417  0.0  0.0   8228   520 ?        S    18:10   0:00 cat
+aro        54419  0.0  0.0 33577532 3540 ?       Sl   18:10   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/aro/.config/google-chrome/Crash Reports --metrics-dir=/home/aro/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=132.0.6834.83 --initial-client-fd=5 --shared-client-connection
+aro        54421  0.0  0.0 33568296 3152 ?       Sl   18:10   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/aro/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.6 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=132.0.6834.83 --initial-client-fd=4 --shared-client-connection
+aro        54427  0.0  1.0 33935932 61156 ?      S    18:10   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable
+aro        54428  0.0  1.0 33935928 60968 ?      S    18:10   0:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable
+aro        54430  0.0  0.2 33935948 17624 ?      S    18:10   0:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable
+aro        54456  0.6  2.4 34218048 149464 ?     Sl   18:10   0:58 /opt/google/chrome/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54458  0.3  1.9 33940620 120792 ?     Sl   18:10   0:32 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-GB --service-sandbox-type=none --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54475  0.0  0.9 33994744 55316 ?      Sl   18:10   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-GB --service-sandbox-type=utility --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54537  0.2  4.2 1218018092 259268 ?   Sl   18:10   0:18 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=10 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=10546846043 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54606  1.3  2.1 1218018092 132612 ?   Sl   18:10   1:50 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=12 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=10547128170 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54612  0.0  1.7 1216289508 107724 ?   Sl   18:10   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=7 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=10547138592 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        54703  0.0  1.2 34190216 74868 ?      Sl   18:10   0:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-GB --service-sandbox-type=none --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        55043  0.0  1.3 34111880 80024 ?      Sl   18:13   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=on_device_model.mojom.OnDeviceModelService --lang=en-GB --service-sandbox-type=on_device_model_execution --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        55044  0.0  0.4 34036908 24476 ?      S    18:13   0:00 /opt/google/chrome/chrome --type=broker
+aro        67409  0.2  0.9 822940 55584 ?        Ssl  19:16   0:12 /usr/libexec/gnome-terminal-server
+aro        67417  0.0  0.0  11008  5528 pts/2    Ss   19:16   0:00 bash
+aro        70146  0.2  3.6 1216324596 219644 ?   Sl   19:42   0:05 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=154 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=16082158407 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70495  0.1  2.2 1216298088 136644 ?   Sl   20:21   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=169 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18431621250 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70662  2.2  4.2 1216330824 255592 ?   Sl   20:23   0:10 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=179 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18512424488 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70680  0.5  2.6 1216299184 161984 ?   Sl   20:23   0:02 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=181 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18526356976 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70692  0.0  1.7 1216297828 105792 ?   Sl   20:23   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=182 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18529135450 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70701  0.0  1.1 1216289504 69128 ?    Sl   20:23   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=183 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18529267646 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70961  1.8  1.8 1218009832 114832 ?   Sl   20:31   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=54419 --enable-crash-reporter=89ceb528-e999-43d9-b218-5cfa937b4cef, --extension-process --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-GB --num-raster-threads=2 --enable-main-frame-before-activation --renderer-client-id=192 --time-ticks-at-unix-epoch=-1737539079845666 --launch-time-ticks=18981305874 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16931988719781840217,615795490990827490,262144 --variations-seed-version=20250121-180208.859000
+aro        70974  0.0  0.0   9600  3388 pts/2    S+   20:31   0:00 bash q4.sh
+aro        70976  0.0  0.0  11684  3684 pts/2    R+   20:31   0:00 ps -ux

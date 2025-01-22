@@ -3,7 +3,9 @@
 # Coded by Aranya Dutta - 23051490
 
 echo "Day 1 - Question 2: Shell program to convert distance into meter, cm, and km"
-echo "                                       Coded by Aranya Dutta - 23051490"
+echo "                                            Coded by Aranya Dutta - 23051490"
+echo "For code you can visit my GitHub:        https://github.com/thisizaro/OS_Lab"
+echo "-----------------------------------------------------------------------------"
 
 read -p "Enter distance in cm: " distance
 
