@@ -112,6 +112,19 @@ void displayGanttChart(Process *head)
 // Source code by Aro.
 int main()
 {
+    /*
+    echo "Day 4 - Question 2: Shell script to store files in directories and show the size of the files."
+    echo "                                            Coded by Aranya Dutta - 23051490"
+    echo "For code you can visit my GitHub:        https://github.com/thisizaro/OS_Lab"
+    echo "-----------------------------------------------------------------------------"
+
+    */
+
+    printf("Day 5 - Question 1: First Come First Serve algorithm.\n");
+    printf("                                            Coded by Aranya Dutta - 23051490\n");
+    printf("For code you can visit my GitHub:        https://github.com/thisizaro/OS_Lab\n");
+    printf("-----------------------------------------------------------------------------\n\n");
+
     int n, pid, bt, at;
     Process *head = NULL;
 
