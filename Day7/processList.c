@@ -23,6 +23,9 @@ int main()
     for (int i = 0; i < 5; i++)
         wait(NULL);
     if (x > 0)
+    {
         printf("Parent process exiting.\n");
+        // printf("11, 10, 15, 14, 13, 12");
+    }
     return 0;
 }
