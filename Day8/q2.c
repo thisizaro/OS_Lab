@@ -10,7 +10,8 @@ int main(int argc, char *argv[])
     if (pid == 0)
     {
         printf("Child process is executing its task.\n");
-        printf("Child process is printing the string: %s\n", argv[1]);
+        printf("Child process is printing the string:\n");
+        execv("./q2_printer.out", argv);
         exit(0);
     }
     else

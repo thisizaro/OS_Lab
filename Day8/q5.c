@@ -8,17 +8,17 @@ int main(int argc, char *argv[])
     // Wap to check that if both parent and child read samme file and point the reading char, then what will impact on the output.
 
     FILE *file;
-    file = fopen("file.txt", "r");
+    file = open("file.txt", "r");
     char c;
     pid_t pid = fork();
     if (pid == 0)
     {
-        c = fgetc(file);
+        c = read(file);
         printf("Child: %c\n", c);
     }
     else
     {
-        c = fgetc(file);
+        c = read(file);
         printf("Parent: %c\n", c);
     }
     return 0;

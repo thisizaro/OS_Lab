@@ -8,7 +8,7 @@ int main()
     pid_t pid;
     int i;
 
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 5; i++)
     {
         pid = fork();
         if (pid < 0)
@@ -25,7 +25,7 @@ int main()
     }
 
     // Parent process waits for all child processes to terminate
-    for (i = 0; i < 3; i++)
+    for (i = 0; i < 5; i++)
     {
         wait(NULL);
     }

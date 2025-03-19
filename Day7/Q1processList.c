@@ -4,6 +4,11 @@
 
 int main()
 {
+
+    printf("Day 7 - Question 1: Creating different process using fork() system call.\n");
+    printf("                                            Coded by Aranya Dutta - 23051490\n");
+    printf("For code you can visit my GitHub:        https://github.com/thisizaro/OS_Lab\n");
+    printf("-----------------------------------------------------------------------------\n\n");
     // Create 5 child processes and print like this...
     // Child process: x; Parent process: y
     printf("Parent process: %d\n", getpid());
@@ -25,7 +30,6 @@ int main()
     if (x > 0)
     {
         printf("Parent process exiting.\n");
-        // printf("11, 10, 15, 14, 13, 12");
     }
     return 0;
 }

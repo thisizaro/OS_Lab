@@ -140,6 +140,12 @@ void preemptiveSJF(struct node *head)
 
 int main()
 {
+
+    printf("Day 6 - Question 1: Preemptive SJF algorithm.\n");
+    printf("                                            Coded by Aranya Dutta - 23051490\n");
+    printf("For code you can visit my GitHub:        https://github.com/thisizaro/OS_Lab\n");
+    printf("-----------------------------------------------------------------------------\n\n");
+
     struct node *head = create();
     display(head);
     printf("Preemptive SJF Scheduling result:\n");

@@ -4,6 +4,11 @@
 
 int main()
 {
+    printf("Day 9 - Question 1: Write a program that creates n level process structure where each\n level consists of exactly one process. Here every parent process makes some modification to the\n original message and sends it to its child and this process repeats till it reached at the last \nchild in the process tree. \n");
+    printf("                                            Coded by Aranya Dutta - 23051490\n");
+    printf("For code you can visit my GitHub:        https://github.com/thisizaro/OS_Lab\n");
+    printf("-----------------------------------------------------------------------------\n\n");
+
     int fd[2][2];
 
     for (int i = 0; i < 2; i++)
